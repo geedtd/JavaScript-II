@@ -1,14 +1,6 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
-function socialButterfly () {
-  let caterpillar = 'Private';
-  function innerVar () {
-    return caterpillar = 'Now A Social Butterfly';
-  }
-  return innerVar;
-}
-let closureFunction = socialButterfly();
-console.log(closureFunction());
+
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
